@@ -5,15 +5,16 @@
 
 #ifdef RCT_NEW_ARCH_ENABLED
 #import "RiskifiedSdkSpec.h"
+#import <ReactCommon/RCTTurboModule.h>
 #endif
 
 @implementation RiskifiedSdk
-static BOOL isBeaconInitialized = NO; // track initialization
+static BOOL isBeaconInitialized = NO;
 
 RCT_EXPORT_MODULE(RiskifiedSdk)
 
 RCT_REMAP_METHOD(startBeacon,
-                useShop:(NSString *)shopDomain 
+                useShop:(NSString *)shopDomain
                 token:(NSString *)token
                 debug:(BOOL)debug
                 withResolver:(RCTPromiseResolveBlock)resolve
@@ -21,28 +22,26 @@ RCT_REMAP_METHOD(startBeacon,
 {
     if (isBeaconInitialized) {
         resolve(nil);
-        return;    
+        return;
     }
     [RiskifiedBeacon startBeacon:shopDomain sessionToken:token debugInfo:debug];
     isBeaconInitialized = YES;
     resolve(nil);
 }
 
-RCT_REMAP_METHOD(updateSessionToken, 
+RCT_REMAP_METHOD(updateSessionToken,
                 useToken:(NSString *)token
                 withResolver:(RCTPromiseResolveBlock)resolve
                 withRejecter:(RCTPromiseRejectBlock)reject)
-
 {
     [RiskifiedBeacon updateSessionToken:token];
     resolve(nil);
 }
 
-RCT_REMAP_METHOD(logRequest, 
+RCT_REMAP_METHOD(logRequest,
                 useUrlString:(NSString *)requestUrl
                 withResolver:(RCTPromiseResolveBlock)resolve
                 withRejecter:(RCTPromiseRejectBlock)reject)
-
 {
     NSURL *url = [NSURL URLWithString:requestUrl];
     [RiskifiedBeacon logRequest:url];
@@ -59,7 +58,7 @@ RCT_REMAP_METHOD(renderOtpWidget,
     if (@available(iOS 13.0, *)) {
         dispatch_async(dispatch_get_main_queue(), ^{
             UIViewController *rootViewController = [UIApplication sharedApplication].delegate.window.rootViewController;
-            
+
             OtpEnv env = [self otpEnvFromString:envString];
 
             OtpConfig *config = [[OtpConfig alloc] initWithWidgetToken:widgetToken
@@ -75,7 +74,7 @@ RCT_REMAP_METHOD(renderOtpWidget,
                                                    parent:rootViewController
                                                    env:env
                                                    isDebug:debug];
-            
+
             [RiskifiedBeacon OfferOTP:config];
         });
     } else {
@@ -91,13 +90,12 @@ RCT_REMAP_METHOD(renderOtpWidget,
     } else if ([envString.lowercaseString isEqualToString:@"staging"]) {
         return OtpEnvStaging;
     } else {
-        // default to sandbox 
         return OtpEnvSandbox;
     }
 }
 
-// won't compile this code when we build for the old architecture
 #ifdef RCT_NEW_ARCH_ENABLED
+// TurboModule support
 - (std::shared_ptr<facebook::react::TurboModule>)getTurboModule:
     (const facebook::react::ObjCTurboModule::InitParams &)params
 {
