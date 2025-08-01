@@ -1,0 +1,83 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.riskifiedsdk.test" >
+4
+5    <uses-sdk
+5-->/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5228027581746267612.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5228027581746267612.xml:5:15-41
+7        android:targetSdkVersion="31" />
+7-->/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5228027581746267612.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5228027581746267612.xml:11:5-15:71
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5228027581746267612.xml:11:22-75
+11        android:functionalTest="false"
+11-->/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5228027581746267612.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5228027581746267612.xml:13:22-53
+13        android:label="Tests for com.riskifiedsdk.test"
+13-->/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5228027581746267612.xml:15:22-69
+14        android:targetPackage="com.riskifiedsdk.test" />
+14-->/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5228027581746267612.xml:12:22-67
+15
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->[:] /Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-75
+16-->[:] /Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-72
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:] /Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+17-->[:] /Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->[:] /Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+18-->[:] /Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Include required permissions for Advertising Id -->
+19-->[:] /Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
+19-->[:] /Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
+20    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+20-->[com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/bekimsinanovic/.gradle/caches/transforms-3/5d3ce5c81f9064bb8f5c7a0c9d6f4f28/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/bekimsinanovic/.gradle/caches/transforms-3/5d3ce5c81f9064bb8f5c7a0c9d6f4f28/transformed/play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:22-76
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[com.riskified:android-sdk:1.6.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/25d6ff5ccf41f97114c5ac5299b259a4/transformed/android-sdk-1.6.0/AndroidManifest.xml:20:5-67
+21-->[com.riskified:android-sdk:1.6.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/25d6ff5ccf41f97114c5ac5299b259a4/transformed/android-sdk-1.6.0/AndroidManifest.xml:20:22-64
+22
+23    <application
+23-->/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5228027581746267612.xml:7:5-9:19
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.7.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/6ace7c7b2f1cdfe3e4b6899c7f11a4c3/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true" >
+26        <uses-library android:name="android.test.runner" />
+26-->/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5228027581746267612.xml:8:9-60
+26-->/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5228027581746267612.xml:8:23-57
+27
+28        <meta-data
+28-->[com.google.android.gms:play-services-basement:18.0.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/6d296b06ee8d89dcc5346d96929b8f84/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+29            android:name="com.google.android.gms.version"
+29-->[com.google.android.gms:play-services-basement:18.0.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/6d296b06ee8d89dcc5346d96929b8f84/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+30            android:value="@integer/google_play_services_version" />
+30-->[com.google.android.gms:play-services-basement:18.0.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/6d296b06ee8d89dcc5346d96929b8f84/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+31
+32        <provider
+32-->[androidx.emoji2:emoji2:1.0.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/7f8ebbd033d1ca2cf62aa8d36b29a84a/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+33            android:name="androidx.startup.InitializationProvider"
+33-->[androidx.emoji2:emoji2:1.0.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/7f8ebbd033d1ca2cf62aa8d36b29a84a/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+34            android:authorities="com.riskifiedsdk.test.androidx-startup"
+34-->[androidx.emoji2:emoji2:1.0.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/7f8ebbd033d1ca2cf62aa8d36b29a84a/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+35            android:exported="false" >
+35-->[androidx.emoji2:emoji2:1.0.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/7f8ebbd033d1ca2cf62aa8d36b29a84a/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+36            <meta-data
+36-->[androidx.emoji2:emoji2:1.0.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/7f8ebbd033d1ca2cf62aa8d36b29a84a/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+37                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+37-->[androidx.emoji2:emoji2:1.0.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/7f8ebbd033d1ca2cf62aa8d36b29a84a/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+38                android:value="androidx.startup" />
+38-->[androidx.emoji2:emoji2:1.0.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/7f8ebbd033d1ca2cf62aa8d36b29a84a/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+39            <meta-data
+39-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/e55634d9f64084c32e36e8ba5887ea71/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+40                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/e55634d9f64084c32e36e8ba5887ea71/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+41                android:value="androidx.startup" />
+41-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/bekimsinanovic/.gradle/caches/transforms-3/e55634d9f64084c32e36e8ba5887ea71/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+42        </provider>
+43    </application>
+44
+45</manifest>

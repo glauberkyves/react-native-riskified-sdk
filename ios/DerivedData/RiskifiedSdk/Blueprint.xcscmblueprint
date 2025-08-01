@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C35018E23ECB81E911B72EDD61864D97C6121D03",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "29063737502F1E7439302015A3798550CC9B71FB" : 0,
+    "C35018E23ECB81E911B72EDD61864D97C6121D03" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "00DA1B2A-39F1-4A8F-BB59-1A1D11993229",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "29063737502F1E7439302015A3798550CC9B71FB" : "ios_sdk\/",
+    "C35018E23ECB81E911B72EDD61864D97C6121D03" : "react-native-riskified-sdk\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RiskifiedSdk",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/RiskifiedSdk.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:Riskified\/ios_sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "29063737502F1E7439302015A3798550CC9B71FB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:beksina\/react-native-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C35018E23ECB81E911B72EDD61864D97C6121D03"
+    }
+  ]
+}

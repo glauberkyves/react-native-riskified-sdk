@@ -1,0 +1,60 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "28c81ce2ff6162d1a1ebf7388f20332a29fe2a87b7c65fea7a8f025b04a3b7ff"
+    }
+  ],
+  "containerPath" : "/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/ios/RiskifiedSdk.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/ios/DerivedData/RiskifiedSdk/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/ios/DerivedData/RiskifiedSdk/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/ios/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/ios/DerivedData/RiskifiedSdk/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/ios/DerivedData/RiskifiedSdk/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/ios/DerivedData/RiskifiedSdk/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/ios/DerivedData/RiskifiedSdk/Build/Products",
+      "pchPath" : "/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/ios/DerivedData/RiskifiedSdk/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

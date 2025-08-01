@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.riskifiedsdk-merged_res-22:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.riskifiedsdk-core-1.7.0-4:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.riskifiedsdk-merged_res-22:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.riskifiedsdk-core-1.7.0-4:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.riskifiedsdk-merged_res-22:/layout-v21/notification_action.xml",
+        "source": "com.riskifiedsdk-core-1.7.0-4:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "com.riskifiedsdk-merged_res-22:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.riskifiedsdk-core-1.7.0-4:/layout-v21/notification_action_tombstone.xml"
+    }
+]

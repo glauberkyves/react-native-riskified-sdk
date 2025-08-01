@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.2.1" type="incidents">
+
+    <incident
+        id="JcenterRepositoryObsolete"
+        severity="warning"
+        message="JCenter Maven repository is no longer receiving updates: newer library versions may be available elsewhere">
+        <fix-alternatives>
+            <fix-replace
+                description="Replace with mavenCentral"
+                oldString="jcenter"
+                replacement="mavenCentral"/>
+            <fix-replace
+                description="Delete this repository declaration"
+                replacement=""/>
+        </fix-alternatives>
+        <location
+            file="${:*projectDir}/build.gradle"
+            line="94"
+            column="5"
+            startOffset="2023"
+            endLine="94"
+            endColumn="14"
+            endOffset="2032"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.tools.build:gradle than 7.2.1 is available: 8.2.2. (There is also a newer version of 7.2.𝑥 available, if upgrading to 8.2.2 is difficult: 7.2.2)">
+        <fix-alternatives>
+            <fix-replace
+                description="Change to 8.2.2"
+                family="Update versions"
+                oldString="7.2.1"
+                replacement="8.2.2"/>
+            <fix-replace
+                description="Change to 7.2.2"
+                family="Update versions"
+                robot="true"
+                independent="true"
+                oldString="7.2.1"
+                replacement="7.2.2"/>
+        </fix-alternatives>
+        <location
+            file="${:*projectDir}/build.gradle"
+            line="21"
+            column="5"
+            startOffset="463"
+            endLine="21"
+            endColumn="53"
+            endOffset="511"/>
+    </incident>
+
+</incidents>

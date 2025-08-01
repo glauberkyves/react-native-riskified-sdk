@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.riskifiedsdk-merged_res-22:/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "com.riskifiedsdk-appcompat-1.4.1-10:/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "com.riskifiedsdk-merged_res-22:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "com.riskifiedsdk-appcompat-1.4.1-10:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    }
+]

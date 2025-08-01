@@ -1,0 +1,12 @@
+{
+  "" : {
+    "dependencies" : "/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/ios/DerivedData/RiskifiedSdk/Index.noindex/Build/Intermediates.noindex/RiskifiedSdk.build/Debug-iphonesimulator/RiskifiedSdk.build/Objects-normal/x86_64/RiskifiedSdk-master.d",
+    "diagnostics" : "/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/ios/DerivedData/RiskifiedSdk/Index.noindex/Build/Intermediates.noindex/RiskifiedSdk.build/Debug-iphonesimulator/RiskifiedSdk.build/Objects-normal/x86_64/RiskifiedSdk-master.dia",
+    "emit-module-dependencies" : "/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/ios/DerivedData/RiskifiedSdk/Index.noindex/Build/Intermediates.noindex/RiskifiedSdk.build/Debug-iphonesimulator/RiskifiedSdk.build/Objects-normal/x86_64/RiskifiedSdk-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/ios/DerivedData/RiskifiedSdk/Index.noindex/Build/Intermediates.noindex/RiskifiedSdk.build/Debug-iphonesimulator/RiskifiedSdk.build/Objects-normal/x86_64/RiskifiedSdk-master-emit-module.dia",
+    "swift-dependencies" : "/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/ios/DerivedData/RiskifiedSdk/Index.noindex/Build/Intermediates.noindex/RiskifiedSdk.build/Debug-iphonesimulator/RiskifiedSdk.build/Objects-normal/x86_64/RiskifiedSdk-master.swiftdeps"
+  },
+  "/Users/bekimsinanovic/Documents/GitHub/react-native-riskified-sdk/ios/RCTOtpConfig.swift" : {
+
+  }
+}
